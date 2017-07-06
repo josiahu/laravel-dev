@@ -8354,6 +8354,10 @@ body {
   color: white;
 }
 
+.list-group-item {
+  color: #001a33;
+}
+
 .jumbotron {
   background-color: #87cefa;
 }
