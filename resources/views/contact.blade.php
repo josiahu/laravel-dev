@@ -12,11 +12,14 @@
     	</div>
     	<div class="form-group">
     		{{Form::label('email', 'E-Mail Address')}}
-    		{{Form::text('email', '', ['class' => 'form-control', 'placeholder' => 'username@email.com'])}}
+    		{{Form::text('email', '', ['class' => 'form-control', 'placeholder' => 'Enter email address'])}}
     	</div>
     	<div class="form-group">
     		{{Form::label('message', 'Message')}}
     		{{Form::textarea('message', '', ['class' => 'form-control', 'placeholder' => 'Enter message'])}}
+    	</div>
+    	<div>
+    		{{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
     	</div>
 	{!! Form::close() !!}
 @endsection
