@@ -23,11 +23,8 @@ Route::get('/about', function () {
     return view('about');
 });
 
-// can also use post
-// Route::post('/about', function () {
-//     return view('home');
-// });
-
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::post('/contact/submit', 'MessagesController@submit');
