@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Basic</title>
+	<title>Hello</title>
 	<link rel="stylesheet" type="text/css" href="/css/app.css">
 </head>
 
