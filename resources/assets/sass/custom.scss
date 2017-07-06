@@ -1,0 +1,40 @@
+body {
+	color:white;
+}
+
+.jumbotron {
+	background-color:#87cefa;
+}
+
+.jumbotron .container{
+	background-color:#87cefa;
+}
+
+.navbar-inverse {
+	background-color:#87cefa;
+}
+
+#basic {
+	color:#036;
+}
+
+#titles > li > a {
+	color:white;
+}
+
+.well {
+	background-color:#87cefa;
+	border-color:#000;
+}
+
+#footer {
+	margin-top:30px;
+	padding:20px;
+	color:white;
+	position:absolute;
+	bottom:0px;
+	width:300px;
+	height:100px;
+	left:50%;
+	margin-left:-150px;
+}
